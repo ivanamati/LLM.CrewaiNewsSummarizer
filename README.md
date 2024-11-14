@@ -14,7 +14,7 @@ git clone https://github.com/yourusername/agent_news_summarizer.git
 cd agent_news_summarizer 
 ```
 
-### Step 1: Customizing
+### Step 2: Customizing
 
 **Add your `OPENAI_API_KEY` and `SERPER_API_KEY` into the `.env` file**
 
@@ -23,7 +23,7 @@ cd agent_news_summarizer
 - Modify `src\agent_news_summarizer\crew.py` to add your own logic, tools and specific args
 - Modify `src\agent_news_summarizer\main.py` to add custom inputs for your agents and tasks
 
-## Running the Project
+### Step 3: Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
@@ -37,7 +37,8 @@ This example, unmodified, will run the create a `report.md` file with the output
 
 ## Understanding Your Crew
 
-The project is composed of multiple AI agents, each with unique roles, goals, and tools. 
-These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, 
-leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+The project is composed of multiple (2 for now) AI agents, each with unique roles, goals, and tools. 
+These agents collaborate on a serie of tasks, defined in `config/tasks.yaml`, 
+leveraging their collective skills to achieve complex objectives. 
+The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
