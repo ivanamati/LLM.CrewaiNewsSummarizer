@@ -8,7 +8,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI & LLM latest news'
+        'topic': 'AI & LLM news for developers'
     }
     print(LatesstAiDevelopmentCrew().crew().kickoff(inputs=inputs))
 
